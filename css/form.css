@@ -1,34 +1,39 @@
 
 .box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     border-radius: 15px;
     width: 20%;
-    color: white;
+    color: white; */
 }
 fieldset{
-    border: 3px solid dodgerblue;
+    border: 3px solid #0079b9;
 }
 
 legend{
-    border: 1px solid dodgerblue;
+    border: 1px solid 0079b9;
     padding: 10px;
     text-align: center;
-    background-color: dodgerblue;
+    background-color: #0079b9;
     border-radius: 5px;
+}
+legend p {
+    color: white;
+    padding: 0;
+    margin: 0;
 }
 .inputBox{
     position: relative;
 }
 
 .entradaDados{
-    background: none;
-    border: none;
-    border-bottom: 1px solid white;
+    /* background: none; */
+    /* border: none; */
+    /* border-bottom: 1px solid white; */
     outline: none;
     color: white;
     font-size: 15px;
@@ -51,7 +56,7 @@ o "~" aponta para onde a animação vai permanecer
 .entradaDados:focus ~ .caixaDados, .entradaDados:valid ~ .caixaDados{
     top:-15px;
     font-size: 12px;
-    color: dodgerblue;
+    color: #0079b9;
 }
 #data_nascimento{
     border: none;
@@ -62,7 +67,7 @@ o "~" aponta para onde a animação vai permanecer
 }
 
 #submit{
-    background-image: linear-gradient(to right, rgb(20,147,220), rgb(90,20,220)); 
+   background-color: #0079b9;
     width: 100%;
     border: none;
     padding: 15px;
@@ -73,5 +78,5 @@ o "~" aponta para onde a animação vai permanecer
 }
 
 #submit:hover{
-    background-image: linear-gradient(to right, rgb(0,80,172), rgb(80,19,195)); 
+    background-color: #043e5e 
 }
